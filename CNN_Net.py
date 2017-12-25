@@ -4,7 +4,7 @@ import numpy as np
 import tensorflow as tf
 from tensorflow.contrib import learn
 from tensorflow.contrib.learn.python.learn.estimators import model_fn as model_fn_lib
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split 
 
 
 def unpickle(file):
@@ -76,7 +76,7 @@ def cnn_model_fn(features, labels, mode, params):
 
 if __name__ == "__main__":
     # Flags and parameters
-    PATH = "/Users/statworxuser/Desktop/Projekte/Python/CNN_Experiments"
+    PATH = ""
     IMG_SIZE = 32
     COL_CHANNELS = 3
     FEATURES = COL_CHANNELS * IMG_SIZE ** 2
